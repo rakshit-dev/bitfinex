@@ -355,16 +355,42 @@ class Dashboard extends Component {
                             <Grid item xs={4}>
                               <NativeSelect
                                 disableUnderline
-                                style={{ border: "1px solid #384952" }}
+                                style={{
+                                  border: "1px solid #384952",
+                                  color: "white",
+                                }}
                                 inputProps={{
                                   name: "age",
                                   id: "age-native-helper",
                                 }}
                               >
-                                <option aria-label="None" value="" />
-                                <option value={10}>Ten</option>
-                                <option value={20}>Twenty</option>
-                                <option value={30}>Thirty</option>
+                                <option
+                                  value={10}
+                                  style={{
+                                    background: "#384952",
+                                    color: "#ffffff",
+                                  }}
+                                >
+                                  Ten
+                                </option>
+                                <option
+                                  value={20}
+                                  style={{
+                                    background: "#384952",
+                                    color: "#ffffff",
+                                  }}
+                                >
+                                  Twenty
+                                </option>
+                                <option
+                                  value={30}
+                                  style={{
+                                    background: "#384952",
+                                    color: "#ffffff",
+                                  }}
+                                >
+                                  Thirty
+                                </option>
                               </NativeSelect>
                             </Grid>
                             <Grid item xs={12}>

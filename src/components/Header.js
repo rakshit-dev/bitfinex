@@ -139,10 +139,7 @@ class Header extends Component {
               </FormGroup>
             </Form>
             <NavItem className="navbar-right">
-              <NavLink
-                style={{ color: "#FFFFFF", fontSize: "15px" }}
-                href="https://github.com/reactstrap/reactstrap"
-              >
+              <NavLink style={{ color: "#FFFFFF", fontSize: "15px" }} href="#">
                 LOG IN
               </NavLink>
             </NavItem>
@@ -171,13 +168,17 @@ class Header extends Component {
                 caret
                 style={{ color: "#FFFFFF", fontSize: "15px" }}
               >
-                More
+                English
               </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Funding</DropdownItem>
-                <DropdownItem>Lending Pro</DropdownItem>
+              <DropdownMenu right style={{ background: "#1B262D" }}>
+                <DropdownItem style={{ color: "#FFFFFF" }}>
+                  Funding
+                </DropdownItem>
+                <DropdownItem style={{ color: "#FFFFFF" }}>
+                  Lending Pro
+                </DropdownItem>
 
-                <DropdownItem>Borrow</DropdownItem>
+                <DropdownItem style={{ color: "#FFFFFF" }}>Borrow</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
